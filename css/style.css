@@ -257,3 +257,34 @@ footer {
 	-webkit-font-smoothing: antialiased;
 	margin-bottom: 9em;
 }
+
+/*--------------------------- footer ---------------------*/
+
+footer > p {
+	margin-bottom: 1em;
+}
+
+.logos > li {
+	display: inline-block;
+	border: 1px solid #d3d3d3;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 0 8px;
+
+}
+
+.fa-twitter {
+	color: #55ACEE;
+}
+
+.fa-facebook {
+	color: #4C66A4;
+}
+
+.fa-instagram {
+	color: #3F729B;
+}
+
+.copyright {
+	margin-top: 1em;
+}
