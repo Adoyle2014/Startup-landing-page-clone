@@ -48,3 +48,104 @@ table {
 }
 
 /*==============================  Start ===============================*/
+
+/* Temporary */
+body {
+	background-color: #ccc;
+
+}
+
+div {
+	border: 1px solid chocolate;
+}
+/*------------------------------------------------*/
+
+
+
+body {
+	font-family: Roboto, sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+a {
+	text-decoration: none;
+	font-family: Roboto, sans-serif;
+
+
+}
+
+li {
+	text-decoration: none;
+
+}
+
+header {
+	min-width: 100%;
+	background-color: #fff;
+	height: 4.4em;
+	
+}
+
+.navbar {
+	max-width: 65%;
+	height: 100%;
+	margin: auto;
+
+}
+
+#logo {
+	float: left;
+	position: relative;
+	top: .9em;
+	margin-left: .5em;
+	
+
+}
+
+#logo img {
+	height: 2.4em;
+}
+
+nav {
+	float: right;
+	height: 100%;
+
+}
+
+nav > ul {	
+	margin-right: 3.7em;
+
+}
+
+nav ul > li {	
+	display: inline-block;
+	height: 4.5em;
+	line-height: 4.4em;
+	margin: 0 .7em;
+	font-size: 1.05em;
+	
+
+}
+
+nav ul li > a {
+	color: #777;
+}
+
+#meet-karma a {
+	font-weight: 600;
+	color: #333;
+}
+
+#jumbotron {
+	height: 664px;
+	width: 100%;
+	background-color: #fff;
+
+}
+
+#jumbotron img {
+	height: 100%;
+	width: 100%;
+
+}
