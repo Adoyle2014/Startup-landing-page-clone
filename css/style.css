@@ -49,7 +49,7 @@ table {
 
 /*==============================  Start ===============================*/
 
-/* Temporary */
+/* Temporary 
 body {
 	background-color: #ccc;
 
@@ -58,7 +58,7 @@ body {
 div {
 	border: 1px solid chocolate;
 }
-/*------------------------------------------------*/
+------------------------------------------------*/
 
 
 
@@ -129,23 +129,71 @@ nav ul > li {
 }
 
 nav ul li > a {
-	color: #777;
+	color: #838994;
+}
+
+nav ul li > a:hover {
+	color: #333;
+
 }
 
 #meet-karma a {
 	font-weight: 600;
-	color: #333;
+	color: #4c5058;
 }
 
 #jumbotron {
+	background: url(../images/background.jpg) no-repeat bottom right;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
 	height: 664px;
 	width: 100%;
 	background-color: #fff;
 
 }
 
-#jumbotron img {
-	height: 100%;
-	width: 100%;
+#jumbotron-center {
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 43%;
+	transform: translateY(-50%);	
+	-webkit-font-smoothing: antialiased;
+}
 
+#jumbotron-heading {
+	font-family: Roboto;
+	font-size: 3.1em;
+	font-weight: 300;
+	margin-bottom: .4em;	
+
+}
+
+#jumbotron-subtext {
+	font-family: Roboto;
+	font-size: 1.6em;
+	font-weight: 300;
+	margin-bottom: .8em;
+
+}
+
+.button {
+	font-size: 1.2em;
+	background-color: #F15A29;
+	width: 8em;
+	height: 3em;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: 500;
+	line-height: 3em;
+	vertical-align: middle;
+
+}
+
+.button:hover {
+	background-color: #D9400E;
+	cursor: pointer;
 }
