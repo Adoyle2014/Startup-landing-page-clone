@@ -60,7 +60,7 @@ div {
 }
 ------------------------------------------------*/
 
-
+/*---------- Global --------------------------*/
 
 body {
 	font-family: Roboto, sans-serif;
@@ -80,18 +80,27 @@ li {
 
 }
 
-header {
-	min-width: 100%;
-	background-color: #fff;
-	height: 4.4em;
-	
+.navbar, #icons, footer {
+	max-width: 65%;
+	margin: auto;
 }
 
-.navbar {
-	max-width: 65%;
-	height: 100%;
-	margin: auto;
+/*-------------------Navbar -------------------*/
 
+
+
+header {
+	background-color: #fff;
+	height: 4.4em;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+
+}
+
+.navbar {	
+	height: 100%;
+	
 }
 
 #logo {
@@ -141,6 +150,8 @@ nav ul li > a:hover {
 	font-weight: 600;
 	color: #4c5058;
 }
+
+/*---------------------- Jumbotron ----------------------------------*/
 
 #jumbotron {
 	background: url(../images/background.jpg) no-repeat bottom right;
@@ -196,4 +207,53 @@ nav ul li > a:hover {
 .button:hover {
 	background-color: #D9400E;
 	cursor: pointer;
+}
+
+/* ----------------------------- Icons --------------------------*/
+
+
+#icons > h1 {
+	margin-top: 2.8em;
+	text-align: center;
+	font-family: Roboto 300;
+	font-size: 2.7em;
+	-webkit-font-smoothing: antialiased;
+}
+
+#icon-row {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 8em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 2em;
+}
+
+.icon > img {
+	height: 5.3em;
+}
+
+.icon {
+	display: inline-block;
+	margin-top: 2em;
+	text-align: center;
+	font-size: 1.4em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon > p {
+	margin-top: 2em;
+}
+
+
+
+footer {
+	text-align: center;
+}
+
+.copyright {
+	color: #a9a9a9;
+	font-size: .9em;
+	-webkit-font-smoothing: antialiased;
+	margin-bottom: 9em;
 }
